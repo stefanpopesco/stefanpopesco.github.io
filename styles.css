@@ -1,8 +1,135 @@
 body {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
     background-color: rgb(255, 255, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}    
+    font-size: 20px;
+}
+
+h1 {
+    text-align:center;
+    margin-top: 15%;
+}
+.all {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-content {
+    margin-bottom: 10%;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    align-self: center;
+}
+
+.breakdown-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    width: 100%;
+    font-weight: 600;
+}
+.breakdown-list {
+    list-style: none;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse:collapse; 
+    border-spacing: 0 1em;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    background-color:rgb(247, 247, 247);
+}
+
+td {
+    padding: 1%;
+    border-right: solid 1px gray;
+}
+
+th {
+    border-bottom: 1px solid black;
+    border-right: solid 1px black;
+    padding: 1%;
+}
+
+.centred {
+    align-self: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.chapter-title {
+    margin-top: 7%;
+}
+
+.resources {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    margin-top: 4%;
+}
+
+.image-description {
+    display: flex;
+    align-self: center;
+    font-style: italic;
+    margin-bottom: 4%;
+}
+
+.column-title {
+    color: white;
+}
+
+.col-1 {
+    background-color: rgb(29, 29, 70);
+}
+
+.col-2 {
+    background-color: rgb(74, 24, 24);
+}
+
+.top-td {
+    padding-top: 3%;
+}
+
+.bottom-td {
+    padding-bottom: 3%;
+}
+
+@media (max-width: 800px) {
+    body,.info, .content, ol, .title-container, .all,.breakdown-container {
+        width: 100%;
+    }
+}
+
+
+
